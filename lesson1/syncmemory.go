@@ -7,7 +7,7 @@ import (
 
 // SampleSyncMemory メモリへのアクセスを同期するサンプルプログラム
 func SampleSyncMemory() {
-	var mu = sync.Mutex{}
+	var mu sync.Mutex
 	var value int
 	go func() {
 		mu.Lock() //メモリの排他的アクセスを取得
