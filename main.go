@@ -4,4 +4,5 @@ package main
 
 func main() {
 	//lesson1.MakeConflict()
+	//lesson1.SampleSyncMemory()
 }
